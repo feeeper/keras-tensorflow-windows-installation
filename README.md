@@ -38,11 +38,9 @@ You can either follow this <a href="https://kb.wisc.edu/cae/page.php?id=24500" t
 
 #### Step 5.1: Open the Start Search, type in “env”
 #### Step 5.2: choose “Edit the system environment variables”:
-#### Click the “Environment Variables…” button.
-#### Under the “System Variables” section (the lower half), find the row with “Path” in the first column, and click edit.
-#### The “Edit environment variable” UI will appear.
-
-
+#### Step 5.3: Click the “Environment Variables…” button.
+#### Step 5.4: Under the “System Variables” section (the lower half), find the row with “Path” in the first column, and click edit.
+#### Step 5.5: The “Edit environment variable” UI will appear.
 
 Turn off all the prompts. 
 Open a new Anaconda Prompt to type the following command(s)
