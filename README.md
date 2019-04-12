@@ -41,14 +41,14 @@ D:\cudnn-8.0-windows10-x64-v5.1\cuda\bin
 You can either follow this <a href="https://kb.wisc.edu/cae/page.php?id=24500" target="_blank">Tutorial</a> here or the following steps (for Windows 10).
 
 #### Step 5.1: open the Start Search, type in “env”
+#### Step 5.2: choose “Edit environment variables for your account”:
 
 <p align="center"><img width=90% src="https://github.com/antoniosehk/keras-tensorflow-windows-installation/blob/master/add_environment_variable_01.png"></p>
 
+#### Step 5.3: under the “Users' Variables” section (the upper half), find the row with “Path” in the first column, and click edit.
+<p align="center"><img width=90% src="https://github.com/antoniosehk/keras-tensorflow-windows-installation/blob/master/add_environment_variable_02.png"></p>
 
-#### Step 5.2: choose “Edit the system environment variables”:
-#### Step 5.3: Click the “Environment Variables…” button.
-#### Step 5.4: Under the “System Variables” section (the lower half), find the row with “Path” in the first column, and click edit.
-#### Step 5.5: The “Edit environment variable” UI will appear.
+#### Step 5.4: the “Edit environment variable” UI will appear. click New.
 
 Turn off all the prompts. 
 Open a new Anaconda Prompt to type the following command(s)
