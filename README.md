@@ -1,5 +1,5 @@
 # Keras-TensorFlow-GPU-Windows-Installation (Updated: 12th Apr, 2019)
-10 easy steps on the installation of TensorFlow-GPU and Keras in Windows
+## 10 easy steps on the installation of TensorFlow-GPU and Keras in Windows
 
 ### Step 0: Install NVIDIA Driver <a href="https://www.nvidia.com/Download/index.aspx?lang=en-us" target="_blank">Download</a>
 Select the appropriate version and click search
