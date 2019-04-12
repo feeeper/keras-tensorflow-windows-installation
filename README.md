@@ -42,7 +42,7 @@ You can either follow this <a href="https://kb.wisc.edu/cae/page.php?id=24500" t
 
 #### Step 5.1: open the Start Search, type in “env”
 
-<p align="center"><img width=90% src="https://github.com/antoniosehk/keras-tensorflow-windows-installation/blob/master/cuda10_windows10_local_installation.png"></p>
+<p align="center"><img width=90% src="https://github.com/antoniosehk/keras-tensorflow-windows-installation/blob/master/add_environment_variable_01.png"></p>
 
 
 #### Step 5.2: choose “Edit the system environment variables”:
