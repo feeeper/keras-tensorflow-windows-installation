@@ -1,5 +1,5 @@
 # Keras-TensorFlow-GPU-Windows-Installation (Updated: 12th Apr, 2019)
-## 10 easy steps on the installation of TensorFlow-GPU and Keras in Windows
+## 8 easy steps on the installation of TensorFlow-GPU and Keras in Windows
 
 ### Step 0: Install NVIDIA Driver <a href="https://www.nvidia.com/Download/index.aspx?lang=en-us" target="_blank">Download</a>
 Select the appropriate version and click search
@@ -48,7 +48,11 @@ You can either follow this <a href="https://kb.wisc.edu/cae/page.php?id=24500" t
 #### Step 5.3: under the “Users' Variables” section (the upper half), find the row with “Path” in the first column, and click edit.
 <p align="center"><img width=80% src="https://github.com/antoniosehk/keras-tensorflow-windows-installation/blob/master/add_environment_variable_02.png"></p>
 
-#### Step 5.4: the “Edit environment variable” UI will appear. click New.
+#### Step 5.4: the “Edit environment variable” user interface will appear. click New.
+
+<p align="center"><img width=80% src="https://github.com/antoniosehk/keras-tensorflow-windows-installation/blob/master/add_environment_variable_03.png"></p>
+
+Now you can add a new path to the environment varible
 
 Turn off all the prompts. 
 Open a new Anaconda Prompt to type the following command(s)
@@ -57,31 +61,19 @@ echo %PATH%
 ```
 You shall see that the new Environment PATH is there.
 
-### Step 6: Create an Anaconda environment with Python=3.5
+### Step 6: Create an Anaconda environment with Python=3.6
 Open Anaconda Prompt to type the following command(s)
 ```Command Prompt
-conda create -n tensorflow python=3.5 numpy scipy matplotlib spyder
+conda create -n keras-gpu python=3.6 numpy scipy matplotlib spyder keras-gpu
 ```
 
 ### Step 7: Activate the environment
 Open Anaconda Prompt to type the following command(s)
 ```Command Prompt
-activate tensorflow
+activate keras-gpu
 ```
 
-### Step 8: Install TensorFlow-GPU-1.0.1
-Open Anaconda Prompt to type the following command(s)
-```Command Prompt
-pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/windows/gpu/tensorflow_gpu-1.0.1-cp35-cp35m-win_amd64.whl
-```
-
-### Step 9: Install Keras
-Open Anaconda Prompt to type the following command(s)
-```Command Prompt
-pip install keras
-```
-
-### Step 10: Testing
+### Step 8: Testing
 Let's try running <a href="https://github.com/antoniosehk/keras-tensorflow-windows-installation/blob/master/examples/mnist_mlp.py">mnist_mlp.py</a> in your prompt.
 
 Open Anaconda Prompt to type the following command(s)
