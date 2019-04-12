@@ -34,7 +34,7 @@ Subjected to changes in your installation path.
 C:\cudnn-8.0-windows10-x64-v5.1\cuda\bin
 ```
 
-You can either follow the <a href="https://kb.wisc.edu/cae/page.php?id=24500" target="_blank">Tutorial</a> here or the following steps (for Windows 10).
+You can either follow this <a href="https://kb.wisc.edu/cae/page.php?id=24500" target="_blank">Tutorial</a> here or the following steps (for Windows 10).
 
 #### Step 5.1: Open the Start Search, type in “env”
 #### Step 5.2: choose “Edit the system environment variables”:
