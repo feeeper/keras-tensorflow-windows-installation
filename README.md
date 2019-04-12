@@ -26,13 +26,23 @@ Put your unzipped folder in C drive as follows:
 ```Command Prompt
 C:\cudnn-8.0-windows10-x64-v5.1
 ```
-### Step 5: Add cuDNN into Environment PATH <a href="https://kb.wisc.edu/cae/page.php?id=24500" target="_blank">Tutorial</a>
+### Step 5: Add cuDNN into Environment PATH 
 
 Add the following path in your Environment.
 Subjected to changes in your installation path.
 ```Command Prompt
 C:\cudnn-8.0-windows10-x64-v5.1\cuda\bin
 ```
+
+You can either follow the <a href="https://kb.wisc.edu/cae/page.php?id=24500" target="_blank">Tutorial</a> here or the following steps (for Windows 10).
+
+#### Step 5.1: Open the Start Search, type in “env”
+#### Step 5.2: choose “Edit the system environment variables”:
+#### Click the “Environment Variables…” button.
+#### Under the “System Variables” section (the lower half), find the row with “Path” in the first column, and click edit.
+#### The “Edit environment variable” UI will appear.
+
+
 
 Turn off all the prompts. 
 Open a new Anaconda Prompt to type the following command(s)
