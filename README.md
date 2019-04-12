@@ -43,10 +43,10 @@ You can either follow this <a href="https://kb.wisc.edu/cae/page.php?id=24500" t
 #### Step 5.1: open the Start Search, type in “env”
 #### Step 5.2: choose “Edit environment variables for your account”:
 
-<p align="center"><img width=90% src="https://github.com/antoniosehk/keras-tensorflow-windows-installation/blob/master/add_environment_variable_01.png"></p>
+<p align="center"><img width=80% src="https://github.com/antoniosehk/keras-tensorflow-windows-installation/blob/master/add_environment_variable_01.png"></p>
 
 #### Step 5.3: under the “Users' Variables” section (the upper half), find the row with “Path” in the first column, and click edit.
-<p align="center"><img width=90% src="https://github.com/antoniosehk/keras-tensorflow-windows-installation/blob/master/add_environment_variable_02.png"></p>
+<p align="center"><img width=80% src="https://github.com/antoniosehk/keras-tensorflow-windows-installation/blob/master/add_environment_variable_02.png"></p>
 
 #### Step 5.4: the “Edit environment variable” UI will appear. click New.
 
