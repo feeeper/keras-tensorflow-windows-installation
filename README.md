@@ -24,7 +24,7 @@ Choose your version depending on your Operating System
 Choose your version depending on your Operating System.
 Membership registration is required.
 
-<p align="center"><img width=70% src="https://github.com/antoniosehk/keras-tensorflow-windows-installation/blob/master/cuDNN_windows_download.png"></p>
+<p align="center"><img width=70% src="https://github.com/antoniosehk/keras-tensorflow-windows-installation/blob/master/cuDNN_windows_download_v2.png"></p>
 
 Put your unzipped folder in C drive as follows: 
 ```Command Prompt
