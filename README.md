@@ -64,7 +64,7 @@ You shall see that the new Environment PATH is there.
 ### Step 6: Create an Anaconda environment with Python=3.6
 Open Anaconda Prompt to type the following command(s)
 ```Command Prompt
-conda create -n keras-gpu python=3.6 numpy scipy matplotlib spyder keras-gpu
+conda create -n keras-gpu python=3.6 numpy scipy keras-gpu
 ```
 
 ### Step 7: Activate the environment
@@ -78,7 +78,7 @@ Let's try running <a href="https://github.com/antoniosehk/keras-tensorflow-windo
 
 Open Anaconda Prompt to type the following command(s)
 ```Command Prompt
-activate tensorflow
+activate keras-gpu
 python mnist_mlp.py
 ```
 Congratulations ! You have successfully run Keras (with Tensorflow backend) over GPU on Windows !
