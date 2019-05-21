@@ -28,14 +28,14 @@ Membership registration is required.
 
 Put your unzipped folder in C drive as follows: 
 ```Command Prompt
-D:\cudnn-10.1-windows10-x64-v7.5.0.56
+C:\cudnn-10.1-windows10-x64-v7.5.0.56
 ```
 ### Step 6: Add cuDNN into Environment PATH 
 
 Add the following path in your Environment.
 Subjected to changes in your installation path.
 ```Command Prompt
-D:\cudnn-8.0-windows10-x64-v5.1\cuda\bin
+C:\cudnn-8.0-windows10-x64-v5.1\cuda\bin
 ```
 
 You can either follow this <a href="https://kb.wisc.edu/cae/page.php?id=24500" target="_blank">Tutorial</a> here or the following steps (for Windows 10).
